@@ -1,0 +1,1053 @@
+{
+  "Nvidia": {
+    "name": "Nvidia",
+    "hq_location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": null,
+      "coordinates": null
+    },
+    "subsidiaries": [
+      {
+        "name": "Nvidia Labs",
+        "type": "R&D",
+        "location": {
+          "city": "Paris",
+          "country": "France",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null
+      },
+      {
+        "name": "Nvidia Ventures",
+        "type": "Investment",
+        "location": {
+          "city": "New York",
+          "country": "USA",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null
+      }
+    ],
+    "total_revenue": "50B"
+  },
+  "NVIDIA": {
+    "name": "NVIDIA",
+    "hq_location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": null,
+      "coordinates": null
+    },
+    "subsidiaries": [
+      {
+        "name": "NVIDIA Labs",
+        "type": "R&D",
+        "location": {
+          "city": "Paris",
+          "country": "France",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null
+      },
+      {
+        "name": "NVIDIA Ventures",
+        "type": "Investment",
+        "location": {
+          "city": "New York",
+          "country": "USA",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null
+      }
+    ],
+    "total_revenue": "50B"
+  },
+  "Alphabet Inc": {
+    "name": "Alphabet Inc",
+    "hq_location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": null,
+      "coordinates": null
+    },
+    "subsidiaries": [
+      {
+        "name": "Alphabet Inc Labs",
+        "type": "R&D",
+        "location": {
+          "city": "Paris",
+          "country": "France",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null
+      },
+      {
+        "name": "Alphabet Inc Ventures",
+        "type": "Investment",
+        "location": {
+          "city": "New York",
+          "country": "USA",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null
+      }
+    ],
+    "total_revenue": "50B"
+  },
+  "apple": {
+    "name": "apple",
+    "hq_location": {
+      "city": "Cupertino",
+      "country": "USA",
+      "address": null,
+      "coordinates": null
+    },
+    "subsidiaries": [
+      {
+        "name": "Apple Canada Inc.",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "Canada",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Computer Trading (Shanghai) Co., Ltd.",
+        "type": "Trading/Sales",
+        "location": {
+          "city": "Shanghai",
+          "country": "China",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Distribution International Limited",
+        "type": "Distribution/Sales/Holding",
+        "location": {
+          "city": "Cork",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple India Private Limited",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "India",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Teknoloji & Satis Ltd. Sti.",
+        "type": "Technology/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search"
+      },
+      {
+        "name": "Apple South Asia Pte Ltd.",
+        "type": "Operating/Holding",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search"
+      },
+      {
+        "name": "Apple Operations International Ltd.",
+        "type": "Operations/Holding",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search"
+      },
+      {
+        "name": "Apple Japan Ltd.",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "Japan",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search"
+      },
+      {
+        "name": "Apple Chile Comercial Ltda.",
+        "type": "Commercial/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "Chile",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search"
+      },
+      {
+        "name": "Apple Asia Limited",
+        "type": "Holding/Operating",
+        "location": {
+          "city": "Unknown",
+          "country": "Hong Kong",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC.gov"
+      },
+      {
+        "name": "Apple Japan, Inc.",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "Japan",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC.gov"
+      },
+      {
+        "name": "Apple Korea Limited",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "South Korea",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC.gov"
+      },
+      {
+        "name": "Apple Pty Limited",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Sydney",
+          "country": "Australia",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Apple Privacy Policy"
+      },
+      {
+        "name": "APPLE SOUTH ASIA (THAILAND) LIMITED.",
+        "type": "Operating/Sales",
+        "location": {
+          "city": "Unknown",
+          "country": "Thailand",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Companies Registration Office"
+      },
+      {
+        "name": "SAFA EUROPE, INC.",
+        "type": "Holding/Investment",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Companies Registration Office"
+      },
+      {
+        "name": "APPLE RETAIL FRANCE E.U.R.L.",
+        "type": "Retail",
+        "location": {
+          "city": "Unknown",
+          "country": "France",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Companies Registration Office"
+      },
+      {
+        "name": "SPRUCE TECHNOLOGIES, INC.",
+        "type": "Technology",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Companies Registration Office"
+      },
+      {
+        "name": "Apple Accessory Products Division",
+        "type": "Product Development",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Apple Advanced Technology Group",
+        "type": "R&D",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Anobit",
+        "type": "Technology",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Beats Electronics",
+        "type": "Consumer Electronics",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Beddit",
+        "type": "Health Tech",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Braeburn Capital",
+        "type": "Financial Management",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Claris",
+        "type": "Software",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      },
+      {
+        "name": "Drive.ai",
+        "type": "AI",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "Wikipedia"
+      }
+    ],
+    "total_revenue": "416 Billion USD (2025)"
+  },
+  "Apple": {
+    "name": "Apple",
+    "hq_location": {
+      "city": "Cupertino",
+      "country": "United States",
+      "address": null,
+      "coordinates": [
+        37.3228934,
+        -122.0322895
+      ]
+    },
+    "subsidiaries": [
+      {
+        "name": "Apple Asia Limited",
+        "type": "Holding/Regional Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Hong Kong",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Asia LLC",
+        "type": "Holding/Regional Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "U.S.",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Canada Inc.",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Canada",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Computer Trading (Shanghai) Co., Ltd.",
+        "type": "Trading/Operations",
+        "location": {
+          "city": "Shanghai",
+          "country": "China",
+          "address": null,
+          "coordinates": [
+            31.2312707,
+            121.4700152
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Distribution International Limited",
+        "type": "Distribution/Sales",
+        "location": {
+          "city": "Cork",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": [
+            51.8985136,
+            -8.4726423
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple India Private Limited",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "India",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Insurance Company, Inc.",
+        "type": "Insurance",
+        "location": {
+          "city": "Unknown",
+          "country": "U.S.",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Japan, Inc.",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Japan",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Korea Limited",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "South Korea",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Operations International Limited",
+        "type": "Holding/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Operations Limited",
+        "type": "Holding/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Operations Mexico, S.A. de C.V.",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Mexico",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Pty Limited",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Sydney",
+          "country": "Australia",
+          "address": null,
+          "coordinates": [
+            -33.8698439,
+            151.2082848
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Sales International Limited",
+        "type": "Sales/Holding",
+        "location": {
+          "city": "Unknown",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple South Asia (Thailand) Limited",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Bangkok",
+          "country": "Thailand",
+          "address": null,
+          "coordinates": [
+            13.7524938,
+            100.4935089
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Vietnam Limited Liability Company",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "address": null,
+          "coordinates": [
+            10.7755254,
+            106.7021047
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Europe Limited",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "United Kingdom",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple France",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "France",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple GmbH",
+        "type": "Sales/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Germany",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Operations Europe Limited",
+        "type": "Holding/Operations",
+        "location": {
+          "city": "Unknown",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "Apple Value Services, LLC",
+        "type": "Services/Financial",
+        "location": {
+          "city": "Unknown",
+          "country": "U.S.",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing"
+      },
+      {
+        "name": "WaveOne",
+        "type": "Tech/Video Compression",
+        "location": {
+          "city": "N/A",
+          "country": "N/A",
+          "address": null,
+          "coordinates": [
+            51.566874,
+            4.9284972
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate) (Gap Filled)"
+      },
+      {
+        "name": "SourceDNA",
+        "type": "Tech/Developer Tools",
+        "location": {
+          "city": "Cupertino",
+          "country": "United States",
+          "address": null,
+          "coordinates": [
+            37.3228934,
+            -122.0322895
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate) (Gap Filled)"
+      },
+      {
+        "name": "Inductiv",
+        "type": "AI/Machine Learning",
+        "location": {
+          "city": "Waterloo",
+          "country": "Canada",
+          "address": null,
+          "coordinates": [
+            43.4652699,
+            -80.5222961
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate) (Gap Filled)"
+      },
+      {
+        "name": "Beddit",
+        "type": "Health Tech/Wearables",
+        "location": {
+          "city": "None",
+          "country": "None",
+          "address": null,
+          "coordinates": [
+            44.9379672,
+            7.5400398
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate) (Gap Filled)"
+      },
+      {
+        "name": "faceshift",
+        "type": "Motion Capture/VR/AR",
+        "location": {
+          "city": "Zurich",
+          "country": "Switzerland",
+          "address": null,
+          "coordinates": [
+            47.3744489,
+            8.5410422
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate) (Gap Filled)"
+      },
+      {
+        "name": "Metaio",
+        "type": "AR/VR",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate)"
+      },
+      {
+        "name": "Locationary",
+        "type": "Location Services/Mapping",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate)"
+      },
+      {
+        "name": "Redmatica",
+        "type": "Audio Software",
+        "location": {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search (Insights;Gate)"
+      }
+    ],
+    "total_revenue": "383 Billion USD (2024)",
+    "usage": {
+      "tavily_calls": 14,
+      "llm_tokens": 1614,
+      "estimated_cost": 0.15614
+    }
+  },
+  "Metaio": {
+    "name": "Metaio",
+    "hq_location": {
+      "city": "Munich",
+      "country": "Germany",
+      "address": null,
+      "coordinates": [
+        48.1371079,
+        11.5753822
+      ]
+    },
+    "subsidiaries": [
+      {
+        "name": "Cassin Networks ApS",
+        "type": "Network Services/Holding",
+        "location": {
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "address": null,
+          "coordinates": [
+            55.6867243,
+            12.5700724
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing (Meta Platforms, Inc. EX-21.1) (Gap Filled)"
+      },
+      {
+        "name": "Edge Network Services Limited",
+        "type": "Network Services/Tech",
+        "location": {
+          "city": "Dublin",
+          "country": "Ireland",
+          "address": null,
+          "coordinates": [
+            53.3493795,
+            -6.2605593
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing (Meta Platforms, Inc. EX-21.1) (Gap Filled)"
+      },
+      {
+        "name": "Facebook Circularity, LLC",
+        "type": "Sustainability/Holding",
+        "location": {
+          "city": "Menlo Park",
+          "country": "United States",
+          "address": null,
+          "coordinates": [
+            37.4519671,
+            -122.177992
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing (Meta Platforms, Inc. EX-21.1) (Gap Filled)"
+      },
+      {
+        "name": "Instagram, LLC",
+        "type": "Social Media/Tech",
+        "location": {
+          "city": "Menlo Park",
+          "country": "United States",
+          "address": null,
+          "coordinates": [
+            37.4519671,
+            -122.177992
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing (Meta Platforms, Inc. EX-21.1) (Gap Filled)"
+      },
+      {
+        "name": "Meta Payments Inc.",
+        "type": "Fintech/Payments",
+        "location": {
+          "city": "Menlo Park",
+          "country": "United States",
+          "address": null,
+          "coordinates": [
+            37.4519671,
+            -122.177992
+          ]
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "SEC Filing (Meta Platforms, Inc. EX-21.1) (Gap Filled)"
+      },
+      {
+        "name": "Metaio Solutions Private Limited",
+        "type": "Software/Solutions",
+        "location": {
+          "city": "Unknown",
+          "country": "India (inferred from currency)",
+          "address": null,
+          "coordinates": null
+        },
+        "financials": null,
+        "parent_company": null,
+        "description": null,
+        "source": "General Search"
+      }
+    ],
+    "total_revenue": "Not available for Metaio. Meta Platforms, Inc. (which acquired Metaio) reported total revenue of $36,455 million for Q1 2024.",
+    "usage": {
+      "tavily_calls": 14,
+      "llm_tokens": 586,
+      "estimated_cost": 0.14586000000000002
+    }
+  }
+}

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+httpx
+openai
+beautifulsoup4
+google-generativeai
+groq
+importlib-metadata
+geopy
+typing_extensions
