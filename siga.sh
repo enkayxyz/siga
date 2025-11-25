@@ -122,6 +122,13 @@ function verify_ai() {
     read
 }
 
+function deploy_app() {
+    echo -e "${BLUE}Starting Deployment...${NC}"
+    ./deploy_backend.sh
+    echo -e "\nPress Enter to continue..."
+    read
+}
+
 # Main Menu
 check_conda
 
@@ -131,7 +138,8 @@ if [ "$1" ]; then
         stop) stop_app ;;
         setup) setup_ai ;;
         verify) verify_ai ;;
-        *) echo "Usage: $0 {start|stop|setup|verify}" ;;
+        deploy) deploy_app ;;
+        *) echo "Usage: $0 {start|stop|setup|verify|deploy}" ;;
     esac
     exit 0
 fi
@@ -142,7 +150,9 @@ while true; do
     echo "2. Stop App"
     echo "3. Setup AI"
     echo "4. Verify AI Connectivity"
-    echo "5. Exit"
+    echo "5. Deploy Backend (Cloudflare Workers)"
+    echo "6. Deploy Frontend (Cloudflare Pages)"
+    echo "7. Exit"
     echo -n "Choose an option: "
     read choice
 
@@ -151,7 +161,9 @@ while true; do
         2) stop_app ;;
         3) setup_ai ;;
         4) verify_ai ;;
-        5) exit 0 ;;
+        5) deploy_app ;;
+        6) ./deploy_frontend.sh; echo -e "\nPress Enter..."; read ;;
+        7) exit 0 ;;
         *) echo -e "${RED}Invalid option${NC}" ;;
     esac
     echo ""

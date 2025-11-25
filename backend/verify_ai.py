@@ -2,82 +2,59 @@ import os
 import sys
 from dotenv import load_dotenv
 import asyncio
-import google.generativeai as genai
-from groq import Groq
-# from openai import OpenAI # Assuming openai package is installed
+import httpx
 
-# Load environment variables
-# load_dotenv() # Moved to main execution or handled by app
+# ... (imports)
 
-GREEN = "\033[92m"
-RED = "\033[91m"
-YELLOW = "\033[93m"
-RESET = "\033[0m"
+# Remove google.generativeai import
+# import google.generativeai as genai
 
-def print_status(provider, status, message=""):
-    if status == "OK":
-        print(f"[{GREEN}OK{RESET}] {provider:<10} : Connected")
-    elif status == "SKIP":
-        print(f"[{YELLOW}SKIP{RESET}] {provider:<10} : {message}")
-    else:
-        print(f"[{RED}FAIL{RESET}] {provider:<10} : {message}")
-
-async def check_openai(api_key=None):
-    key = api_key or os.getenv("OPENAI_API_KEY")
-    if not key:
-        return "SKIP", "No API Key found"
-    try:
-        # Simple check without making a full request if possible, or a very cheap one
-        # For now, we'll just check if the library loads and key is present. 
-        # To really test, we'd need to make a call.
-        from openai import OpenAI
-        client = OpenAI(api_key=key)
-        client.models.list() # Lightweight call
-        return "OK", ""
-    except Exception as e:
-        return "FAIL", str(e)
-
-async def check_groq(api_key=None):
-    key = api_key or os.getenv("GROQ_API_KEY")
-    if not key:
-        return "SKIP", "No API Key found"
-    try:
-        client = Groq(api_key=key)
-        client.models.list()
-        return "OK", ""
-    except Exception as e:
-        return "FAIL", str(e)
+# ...
 
 async def check_gemini(api_key=None):
     key = api_key or os.getenv("GEMINI_API_KEY")
     if not key:
         return "SKIP", "No API Key found"
     try:
-        genai.configure(api_key=key)
         model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
-        model = genai.GenerativeModel(model_name)
-        # Use count_tokens for a cheaper/lighter check
-        try:
-            response = model.count_tokens("Hi")
-            return "OK", ""
-        except Exception as e:
-            if "429" in str(e):
-                return "FAIL", "Rate limit exceeded (429). Try a different model (e.g. Flash) or wait."
-            raise e
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={key}"
+        async with httpx.AsyncClient() as client:
+            resp = await client.post(
+                url,
+                json={"contents": [{"parts": [{"text": "Hi"}]}]},
+                timeout=10.0
+            )
+            if resp.status_code == 200:
+                return "OK", ""
+            elif resp.status_code == 429:
+                return "FAIL", "Rate limit exceeded (429)."
+            else:
+                return "FAIL", f"Status {resp.status_code}: {resp.text[:100]}"
     except Exception as e:
         return "FAIL", str(e)
 
-async def check_tavily(api_key=None):
-    key = api_key or os.getenv("TAVILY_API_KEY")
+# ...
+
+def get_gemini_models(api_key):
+    if not api_key: return []
+    try:
+        with httpx.Client() as client:
+            resp = client.get(f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}")
+            if resp.status_code == 200:
+                data = resp.json()
+                return [m['name'].replace("models/", "") for m in data.get('models', []) if "generateContent" in m.get('supportedGenerationMethods', [])]
+            return []
+    except: return []
+
+async def check_groq(api_key=None):
+    key = api_key or os.getenv("GROQ_API_KEY")
     if not key:
         return "SKIP", "No API Key found"
     try:
-        # Manual request since we might not have the SDK installed or want to keep it light
-        import httpx
         async with httpx.AsyncClient() as client:
-            resp = await client.post(
-                "https://api.tavily.com/search",
-                json={"api_key": key, "query": "test", "search_depth": "basic", "max_results": 1},
+            resp = await client.get(
+                "https://api.groq.com/openai/v1/models",
+                headers={"Authorization": f"Bearer {key}"},
                 timeout=10.0
             )
             if resp.status_code == 200:
@@ -87,47 +64,20 @@ async def check_tavily(api_key=None):
     except Exception as e:
         return "FAIL", str(e)
 
-async def main():
-    print("Verifying AI Connectivity...\n")
-    
-    # OpenAI
-    status, msg = await check_openai()
-    print_status("OpenAI", status, msg)
-
-    # Groq
-    status, msg = await check_groq()
-    print_status("Groq", status, msg)
-
-    # Gemini
-    status, msg = await check_gemini()
-    print_status("Gemini", status, msg)
-
-    # Tavily
-    status, msg = await check_tavily()
-    print_status("Tavily", status, msg)
-
-    print("\nDone.")
-
-def get_openai_models(api_key):
-    if not api_key: return []
-    try:
-        from openai import OpenAI
-        client = OpenAI(api_key=api_key)
-        return [m.id for m in client.models.list()]
-    except: return []
+# ...
 
 def get_groq_models(api_key):
     if not api_key: return []
     try:
-        client = Groq(api_key=api_key)
-        return [m.id for m in client.models.list().data]
-    except: return []
-
-def get_gemini_models(api_key):
-    if not api_key: return []
-    try:
-        genai.configure(api_key=api_key)
-        return [m.name.replace("models/", "") for m in genai.list_models() if "generateContent" in m.supported_generation_methods]
+        with httpx.Client() as client:
+            resp = client.get(
+                "https://api.groq.com/openai/v1/models",
+                headers={"Authorization": f"Bearer {api_key}"}
+            )
+            if resp.status_code == 200:
+                data = resp.json()
+                return [m['id'] for m in data.get('data', [])]
+            return []
     except: return []
 
 if __name__ == "__main__":

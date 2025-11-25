@@ -1,0 +1,12 @@
+fastapi
+pydantic
+python-dotenv
+httpx
+openai
+beautifulsoup4
+
+
+typing_extensions
+starlette
+anyio
+python-multipart

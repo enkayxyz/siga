@@ -1,0 +1,12 @@
+name = "siga-backend"
+main = "main.py"
+compatibility_date = "2024-03-20"
+compatibility_flags = ["python_workers"]
+
+
+# Environment variables (Set actual values in Cloudflare Dashboard or via 'wrangler secret put')
+[vars]
+# TAVILY_API_KEY = ""
+# GEMINI_API_KEY = ""
+# OPENAI_API_KEY = ""
+# GROQ_API_KEY = ""
